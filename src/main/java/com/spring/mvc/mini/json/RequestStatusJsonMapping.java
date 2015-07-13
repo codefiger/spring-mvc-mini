@@ -41,7 +41,7 @@ public class RequestStatusJsonMapping {
 	}
 	
 	public int getLatestmocrid(){
-
+		System.out.println("just print nothing!");
 		ArrayList<MOCRequestStatus> mrsList = this.readStatus();
 	
 		int mocrid = mrsList.get(mrsList.size()-1).getmocrid(); 
